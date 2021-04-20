@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CPUs>
+		<CPU>
+			<ID>INTEL_CORE_I3_10100</ID>
+			<Name>Intel Core i3 10100</Name>
+			<Cost>10190</Cost>
+			<SingleThreadMark>2642</SingleThreadMark>
+			<MultiThreadMark>15977</MultiThreadMark>
+			<Description>Базирующийся на архитектуре Comet Lake процессор Intel Core i3-10100 имеет 4 ядра. Базовая частота составляет 3600 МГц. Максимальная частота в турборежиме – 4300 МГц. Объем кеш-памяти второго уровня – 1 МБ. Кеш L3 имеет объем 6 МБ. Уровень производительности процессора Intel Core i3 - 10100 OEM достаточен для эффективного функционирования компьютера офисного класса.Модель совместима с памятью DDR4,объем которой может достигать 128 ГБ.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I5_10400F</ID>
+			<Name>Intel Core i5 10400F</Name>
+			<Cost>12840</Cost>
+			<SingleThreadMark>2581</SingleThreadMark>
+			<MultiThreadMark>25145</MultiThreadMark>
+			<Description>Процессор Intel Core i5-10400F способен проявить свою эффективность в составе игровых систем и мощных рабочих станций. Графическое ядро отсутствует: нужно будет позаботиться о выборе видеокарты. Базовая частота процессора равна 2900 МГц. Пиковая частота в турборежиме намного выше – 4300 МГц. Процессор обладает 12-мегабайтной кеш-памятью третьего уровня. Объем кеша L2 равен 1.5 МБ.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I5_10400</ID>
+			<Name>Intel Core i5 10400</Name>
+			<Cost>14790</Cost>
+			<SingleThreadMark>2598</SingleThreadMark>
+			<MultiThreadMark>24847</MultiThreadMark>
+			<Description>Универсальный процессор INTEL Core i5 10400 для десктопных компьютеров рассчитан для работы как дома, так и в офисе. Может быть использован в сборках для решения различных задач. 6 ядер и 12 потоков обеспечат работу без зависаний даже при одновременном открытии сразу нескольких программ, а также высокую производительность в работе с браузером, фото и видео файлами, играми. Создан на базе архитектуры Comet Lake с применением техпроцесса 14 нм.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I5_10600KF</ID>
+			<Name>Intel Core i5 10600KF</Name>
+			<Cost>18935</Cost>
+			<SingleThreadMark>2958</SingleThreadMark>
+			<MultiThreadMark>29230</MultiThreadMark>
+			<Description>Базирующийся на архитектуре Comet Lake процессор Intel Core i3-10100 OEM имеет 4 ядра. Базовая частота составляет 3600 МГц. Максимальная частота в турборежиме – 4300 МГц. Объем кеш-памяти второго уровня – 1 МБ. Кеш L3 имеет объем 6 МБ. Уровень производительности процессора Intel Core i3 - 10100 OEM достаточен для эффективного функционирования компьютера офисного класса.Модель совместима с памятью DDR4,объем которой может достигать 128 ГБ.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I5_10600K</ID>
+			<Name>Intel Core i5 10600K</Name>
+			<Cost>19700</Cost>
+			<SingleThreadMark>2936</SingleThreadMark>
+			<MultiThreadMark>29275</MultiThreadMark>
+			<Description>Процессор Intel Core i5-10600K – чип со сбалансированной производительностью. Можно использовать его для создания различных сборок. При изготовлении применялся технологический процесс 14 нм. Он позволяет добиться небольшого потребления энергии и тепловыделения. Процессор выполнен с применением архитектуры Comet Lake. Она позволила поднять производительность в сравнении с чипами прошлого поколения. Используется шесть ядер и двенадцать потоков для обработки информации.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I7_10700KF</ID>
+			<Name>Intel Core i7 10700KF</Name>
+			<Cost>22790</Cost>
+			<SingleThreadMark>3056</SingleThreadMark>
+			<MultiThreadMark>39856</MultiThreadMark>
+			<Description>Процессор Intel Core i7-10700KF – чип со сбалансированной производительностью. Можно использовать его для создания различных сборок. При изготовлении применялся технологический процесс 14 нм. Он позволяет добиться небольшого потребления энергии и тепловыделения. Процессор выполнен с применением архитектуры Comet Lake. Она позволила поднять производительность в сравнении с чипами прошлого поколения. Используется восемь ядер и шеснадцать потоков для обработки информации.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I9_10850K</ID>
+			<Name>Intel Core i9 10850K</Name>
+			<Cost>32790</Cost>
+			<SingleThreadMark>3197</SingleThreadMark>
+			<MultiThreadMark>50001</MultiThreadMark>
+			<Description>Базирующийся на архитектуре Comet Lake процессор Intel Core i3-10100 OEM имеет 4 ядра. Базовая частота составляет 3600 МГц. Максимальная частота в турборежиме – 4300 МГц. Объем кеш-памяти второго уровня – 1 МБ. Кеш L3 имеет объем 6 МБ. Уровень производительности процессора Intel Core i3 - 10100 OEM достаточен для эффективного функционирования компьютера офисного класса.Модель совместима с памятью DDR4,объем которой может достигать 128 ГБ.</Description>
+		</CPU>
+		<CPU>
+			<ID>INTEL_CORE_I9_10900K</ID>
+			<Name>Intel Core i9 10900K</Name>
+			<Cost>49030</Cost>
+			<SingleThreadMark>3171</SingleThreadMark>
+			<MultiThreadMark>51002</MultiThreadMark>
+			<Description>Базирующийся на архитектуре Comet Lake процессор Intel Core i3-10100 OEM имеет 4 ядра. Базовая частота составляет 3600 МГц. Максимальная частота в турборежиме – 4300 МГц. Объем кеш-памяти второго уровня – 1 МБ. Кеш L3 имеет объем 6 МБ. Уровень производительности процессора Intel Core i3 - 10100 OEM достаточен для эффективного функционирования компьютера офисного класса.Модель совместима с памятью DDR4,объем которой может достигать 128 ГБ.</Description>
+		</CPU>
+		<CPU>
+			<ID>AMD_RYZEN_5_3600</ID>
+			<Name>AMD Ryzen 5 3600</Name>
+			<Cost>18991</Cost>
+			<SingleThreadMark>2611</SingleThreadMark>
+			<MultiThreadMark>33618</MultiThreadMark>
+			<Description>6-ядерный процессор AMD Ryzen 5 3600 OEM порадует высоким уровнем производительности подавляющее большинство пользователей. Устройство будет уверенно себя чувствовать в составе мощной игровой системы. Базовая частота процессора равна 3600 МГц. Турбочастота – 4200 МГц. Важной особенностью процессора является очень большой объем кэша третьего уровня: величина этого показателя равна 32 МБ. Объем кэша L2 – 3 МБ. Процессор AMD Ryzen 5 3600 OEM не имеет встроенного графического ядра. Модель совместима с памятью DDR4, объем которой может достигать 128 ГБ. Минимально допустимая частота оперативной памяти – 1600 МГц. Максимально допустимая частота вдвое выше – 3200 МГц.</Description>
+		</CPU>
+		<CPU>
+			<ID>AMD_RYZEN_7_3700X</ID>
+			<Name>AMD Ryzen 7 3700X</Name>
+			<Cost>28982</Cost>
+			<SingleThreadMark>2689</SingleThreadMark>
+			<MultiThreadMark>32869</MultiThreadMark>
+			<Description>8-ядерный процессор AMD Ryzen 7 3700X OEM – выбор профессионалов. Модель способна обеспечить уровень производительности, который достаточен для эффективной работы с любыми программами и с любыми объемами данных. Одной из сфер применения процессора являются компьютеры, ориентированные на ресурсоемкие игры. Процессор AMD Ryzen 7 3700X OEM характеризуется базовой частотой, равной 3600 МГц. Максимальная частота в турборежиме равна 4400 МГц. Устройство имеет свободный множитель. Объем кеш-памяти второго и третьего уровней равен 4 и 32 МБ соответственно.</Description>
+		</CPU>
+		<CPU>
+			<ID>AMD_RYZEN_9_3900X</ID>
+			<Name>AMD Ryzen 9 3900X</Name>
+			<Cost>44879</Cost>
+			<SingleThreadMark>2731</SingleThreadMark>
+			<MultiThreadMark>67321</MultiThreadMark>
+			<Description>Процессор AMD Ryzen 9 3900X BOX представляет собой высокопроизводительное решение для игровых систем и рабочих станций. Данная модель основана на архитектуре Matisse и выполнена по техпроцессу 7 нм, что положительно сказывается на вычислительной мощности. Для установки на материнскую плату используется сокет AM4. Процессор оснащен 12 физическими ядрами и 24 виртуальными потоками, что позволяет обрабатывать большие массивы данных и решать самые сложные задачи за короткий промежуток времени. Частота работы может варьироваться от 3800 до 4600 МГц. Благодаря свободному множителю данные значения могут быть увеличены для достижения максимальной производительности. Помимо этого модель отличается возможностью использования до 128 ГБ оперативной памяти типа DDR4 с максимальной частотой до 3200 МГц. Другой важной особенностью модели является встроенный контроллер PCI-E 4.0.</Description>
+		</CPU>
+	</CPUs>
+	<GPUs>
+		<GPU>
+			<ID>NVIDIA_GTX_1650S</ID>
+			<Cost>16528</Cost>
+			<Name>NVIDIA Geforce GTX 1650 Super</Name>
+			<SingleThreadMark>9856</SingleThreadMark>
+			<Description> Позиционируется как модель для комплектации недорогих игровых и универсальных бытовых ПК. При работе в связке с производительным многоядерным CPU станет хорошим выбором для обновления/модернизации существующих геймерских систем. По интегральному игровому быстродействию эта видеокарта уверенно превосходит популярные видеоадаптеры среднего класса 2016-2019 годов (GTX 1060 6Гб, AMD RX580/590).</Description>
+		</GPU>
+		<GPU>
+			<ID>NVIDIA_GTX_1660S</ID>
+			<Cost>23949</Cost>
+			<Name>NVIDIA Geforce GTX 1660 Super</Name>
+			<SingleThreadMark>12668</SingleThreadMark>
+			<Description> Позиционируется как модель для комплектации недорогих игровых и универсальных бытовых ПК. При работе в связке с производительным многоядерным CPU станет хорошим выбором для обновления/модернизации существующих геймерских систем. По интегральному игровому быстродействию эта видеокарта уверенно превосходит популярные видеоадаптеры среднего класса 2016-2019 годов (GTX 1060 6Гб, AMD RX580/590).</Description>
+		</GPU>
+		<GPU>
+			<ID>NVIDIA_GTX_2060S</ID>
+			<Cost>35924</Cost>
+			<Name>NVIDIA Geforce GTX 2060 Super</Name>
+			<SingleThreadMark>16452</SingleThreadMark>
+			<Description> Позиционируется как модель для комплектации недорогих игровых и универсальных бытовых ПК. При работе в связке с производительным многоядерным CPU станет хорошим выбором для обновления/модернизации существующих геймерских систем. По интегральному игровому быстродействию эта видеокарта уверенно превосходит популярные видеоадаптеры среднего класса 2016-2019 годов (GTX 1060 6Гб, AMD RX580/590).</Description>
+		</GPU>
+		<GPU>
+			<ID>NVIDIA_GTX_2070S</ID>
+			<Cost>48681</Cost>
+			<Name>NVIDIA Geforce GTX 2070 Super</Name>
+			<SingleThreadMark>18117</SingleThreadMark>
+			<Description> Позиционируется как модель для комплектации недорогих игровых и универсальных бытовых ПК. При работе в связке с производительным многоядерным CPU станет хорошим выбором для обновления/модернизации существующих геймерских систем. По интегральному игровому быстродействию эта видеокарта уверенно превосходит популярные видеоадаптеры среднего класса 2016-2019 годов (GTX 1060 6Гб, AMD RX580/590).</Description>
+		</GPU>
+		<GPU>
+			<ID>NVIDIA_GTX_2080S</ID>
+			<Cost>68078</Cost>
+			<Name>NVIDIA Geforce GTX 2080 Super</Name>
+			<SingleThreadMark>19438</SingleThreadMark>
+			<Description>Позиционируется как модель для комплектации недорогих игровых и универсальных бытовых ПК. При работе в связке с производительным многоядерным CPU станет хорошим выбором для обновления/модернизации существующих геймерских систем. По интегральному игровому быстродействию эта видеокарта уверенно превосходит популярные видеоадаптеры среднего класса 2016-2019 годов (GTX 1060 6Гб, AMD RX580/590).</Description>
+		</GPU>
+	</GPUs>
+	<Rules>
+		<Rule>
+			<CaseID>Работа с документами</CaseID>
+			<LowerBound>10500</LowerBound>
+			<UpperBound>15000</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Работа с документами</CaseID>
+			<LowerBound>15000</LowerBound>
+			<UpperBound>31500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Работа с документами</CaseID>
+			<LowerBound>31500</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Мультимедиа-центр</CaseID>
+			<LowerBound>10500</LowerBound>
+			<UpperBound>15000</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Мультимедиа-центр</CaseID>
+			<LowerBound>15000</LowerBound>
+			<UpperBound>31500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Мультимедиа-центр</CaseID>
+			<LowerBound>31500</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Разработка программ</CaseID>
+			<LowerBound>10500</LowerBound>
+			<UpperBound>35800</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Разработка программ</CaseID>
+			<LowerBound>38500</LowerBound>
+			<UpperBound>53000</UpperBound>
+			<OutputCPUID>AMD_RYZEN_5_3600</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Разработка программ</CaseID>
+			<LowerBound>53000</LowerBound>
+			<UpperBound>70000</UpperBound>
+			<OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Разработка программ</CaseID>
+			<LowerBound>70000</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>AMD_RYZEN_9_3900X</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
+			<LowerBound>46500</LowerBound>
+			<UpperBound>55000</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10400F</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Компьютерные игры: низкие настройки графики</CaseID>
+			<LowerBound>55000</LowerBound>
+			<UpperBound>71500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10600KF</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Компьютерные игры: средние настройки графики</CaseID>
+			<LowerBound>71500</LowerBound>
+			<UpperBound>117500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I7_10700KF</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Компьютерные игры: высокие настройки графики</CaseID>
+			<LowerBound>117500</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>INTEL_CORE_I9_10900K</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Работа с нейросетями: прототипирование, хобби</CaseID>
+			<LowerBound>72000</LowerBound>
+			<UpperBound>95700</UpperBound>
+			<OutputCPUID>AMD_RYZEN_5_3600</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Работа с нейросетями: обучение высокого уровня, рабочие задачи</CaseID>
+			<LowerBound>95700</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Монтаж видео разрешения до FullHD включительно</CaseID>
+			<LowerBound>56000</LowerBound>
+			<UpperBound>81500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Монтаж 4k видео</CaseID>
+			<LowerBound>81500</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+		</Rule>
+
+		<Rule>
+			<CaseID>Рендеринг трёхмерной графики с использованием видеокарты</CaseID>
+			<LowerBound>71500</LowerBound>
+			<UpperBound>101000</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10700KF</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+		</Rule>
+		<Rule>
+			<CaseID>Рендеринг трёхмерной графики с использованием видеокарты</CaseID>
+			<LowerBound>101000</LowerBound>
+			<UpperBound>79228162514264337593543950335</UpperBound>
+			<OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+		</Rule>
+	</Rules>
+	<Variants>
+		<string>Работа с документами</string>
+		<string>Мультимедиа-центр</string>
+		<string>Компьютерные игры: минимальные настройки графики</string>
+		<string>Компьютерные игры: низкие настройки графики</string>
+		<string>Компьютерные игры: средние настройки графики</string>
+		<string>Компьютерные игры: высокие настройки графики</string>
+		<string>Разработка программ</string>
+		<string>Работа с нейросетями: прототипирование, хобби</string>
+		<string>Работа с нейросетями: обучение высокого уровня, рабочие задачи</string>
+		<string>Монтаж видео разрешения до FullHD включительно</string>
+		<string>Монтаж 4k видео</string>
+		<string>Рендеринг трёхмерной графики с использованием видеокарты</string>
+	</Variants>
+</Model>

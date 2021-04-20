@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:PCPartsPicker"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <local:MainWindowViewModel x:Key="MainWindow"/>
+        <local:NullVisibilityConverter x:Key="NullVisibilityConverter"/>
+        <local:NullNotVisibilityConverter x:Key="NullNotVisibilityConverter"/>
     </Application.Resources>
 </Application>
