@@ -130,6 +130,13 @@
 	<Rules>
 		<Rule>
 			<CaseID>Работа с документами</CaseID>
+			<LowerBound>0</LowerBound>
+			<UpperBound>10500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+			<IsSuggestion>true</IsSuggestion>
+		</Rule>
+		<Rule>
+			<CaseID>Работа с документами</CaseID>
 			<LowerBound>10500</LowerBound>
 			<UpperBound>15000</UpperBound>
 			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
@@ -150,6 +157,13 @@
 
 		<Rule>
 			<CaseID>Мультимедиа-центр</CaseID>
+			<LowerBound>0</LowerBound>
+			<UpperBound>10500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+			<IsSuggestion>true</IsSuggestion>
+		</Rule>
+		<Rule>
+			<CaseID>Мультимедиа-центр</CaseID>
 			<LowerBound>10500</LowerBound>
 			<UpperBound>15000</UpperBound>
 			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
@@ -168,6 +182,13 @@
 			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
 		</Rule>
 
+		<Rule>
+			<CaseID>Разработка программ</CaseID>
+			<LowerBound>0</LowerBound>
+			<UpperBound>10500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+			<IsSuggestion>true</IsSuggestion>
+		</Rule>
 		<Rule>
 			<CaseID>Разработка программ</CaseID>
 			<LowerBound>10500</LowerBound>
@@ -198,9 +219,17 @@
 
 		<Rule>
 			<CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
+			<LowerBound>0</LowerBound>
+			<UpperBound>46500</UpperBound>
+			<OutputCPUID>INTEL_CORE_I5_10400F</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+			<IsSuggestion>true</IsSuggestion>
+		</Rule>
+		<Rule>
+			<CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
 			<LowerBound>46500</LowerBound>
 			<UpperBound>55000</UpperBound>
-			<OutputCPUID>INTEL_CORE_I3_10400F</OutputCPUID>
+			<OutputCPUID>INTEL_CORE_I5_10400F</OutputCPUID>
 			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
 		</Rule>
 		<Rule>

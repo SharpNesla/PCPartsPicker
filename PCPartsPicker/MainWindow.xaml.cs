@@ -28,16 +28,27 @@ namespace PCPartsPicker
                         var pickResult = Model.PickByCase(Variant, MaxCost);
                         if (pickResult != null)
                         {
-                            PickResult = pickResult;
-                            this.PropertyChanged(this, new PropertyChangedEventArgs(nameof(this.PickResult)));
-                            this.PropertyChanged(this, new PropertyChangedEventArgs(nameof(this.Variant)));
+                            if (!pickResult.Rule.IsSuggestion)
+                            {
+                                PickResult = pickResult;
+                                this.PropertyChanged(this, new PropertyChangedEventArgs(nameof(this.PickResult)));
+                                this.PropertyChanged(this, new PropertyChangedEventArgs(nameof(this.Variant)));
+                            }
+                            else
+                            {
+                                var selectedGPUName = pickResult.SelectedGPU != null ? pickResult.SelectedGPU.Name : "нет";
+                                MessageBox.Show("Для выбранных входных данных не найдено решение!\n\n" +
+                                    $"Ближайший возможный вариант стоимостью: {pickResult.SumCost}:₽\n" + 
+                                    $"Процессор: {pickResult.SelectedCPU.Name};\n" +
+                                    $"Видеокарта: {selectedGPUName}.\n",
+                                    "Ошибка: не найдено решение!");
+                            }
                         }
                         else
                         {
                             MessageBox.Show("Для выбранных входных данных не найдено решение!",
-                           "Ошибка: найдено решение!");
+                                "Ошибка: не найдено решение!");
                         }
-                       
                     }
                     else
                     {
@@ -45,7 +56,7 @@ namespace PCPartsPicker
                             "Ошибка: не выбран вариант использования!");
                     }
                 }
-            );            
+            );
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

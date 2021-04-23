@@ -41,6 +41,27 @@
                     <ScrollViewer Margin="8" VerticalScrollBarVisibility="Auto"
                                   Visibility="{Binding PickResult, Converter={StaticResource NullNotVisibilityConverter}}">
                         <StackPanel>
+                            <GroupBox Header="Выполненное правило">
+                                <StackPanel Margin="8">
+                                    <TextBlock TextWrapping="Wrap">
+                                        <Run FontWeight="Bold">ЕСЛИ</Run>
+                                        <Run Text="{Binding PickResult.Rule.CaseID, StringFormat='{}Вариант использования = {0}'}"/>
+                                        <Run FontWeight="Bold">И</Run>
+                                        <Run Text="{Binding PickResult.Rule.LowerBound}"/>
+                                        <Run>⩽ Бюджет &lt;</Run>
+                                        <Run Text="{Binding PickResult.Rule.UpperBoundFinite, Mode=OneWay}"/>
+                                        <Run FontWeight="Bold">ТО</Run>
+                                    </TextBlock>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=PickResult.SelectedCPU.Name,
+                                                        StringFormat='{}Процессор = {0}'}"/>
+                                    <TextBlock Visibility="{Binding PickResult.SelectedCPU, Converter={StaticResource NullNotVisibilityConverter}}"
+                                        TextWrapping="Wrap" Text="{Binding Path=PickResult.SelectedGPU.Name,
+                                                        StringFormat='{}Видеокарта: {0}'}" Margin="0 0 0 8"/>
+                                    <TextBlock Visibility="{Binding PickResult.SelectedCPU, Converter={StaticResource NullNotVisibilityConverter}}"
+                                        TextWrapping="Wrap" Text="{Binding Path=PickResult.SumCost,
+                                                        StringFormat='{}Цена: {0}'}"/>
+                                </StackPanel>
+                            </GroupBox>
                             <GroupBox Header="Процессор">
                                 <StackPanel Margin="8">
                                     <TextBlock TextWrapping="Wrap" Text="{Binding Path=PickResult.SelectedCPU.Name,
