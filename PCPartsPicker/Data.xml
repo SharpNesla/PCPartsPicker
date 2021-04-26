@@ -131,173 +131,303 @@
 		<Rule>
 			<CaseID>Работа с документами</CaseID>
 			<LowerBound>0</LowerBound>
-			<UpperBound>10500</UpperBound>
+			<UpperBound>10190</UpperBound>
 			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
 			<IsSuggestion>true</IsSuggestion>
 		</Rule>
 		<Rule>
 			<CaseID>Работа с документами</CaseID>
-			<LowerBound>10500</LowerBound>
-			<UpperBound>15000</UpperBound>
+			<LowerBound>10190</LowerBound>
+			<UpperBound>14790</UpperBound>
 			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
 		</Rule>
 		<Rule>
 			<CaseID>Работа с документами</CaseID>
-			<LowerBound>15000</LowerBound>
-			<UpperBound>31500</UpperBound>
+			<LowerBound>14790</LowerBound>
+			<UpperBound>31318</UpperBound>
 			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
 		</Rule>
 		<Rule>
 			<CaseID>Работа с документами</CaseID>
-			<LowerBound>31500</LowerBound>
+			<LowerBound>31318</LowerBound>
 			<UpperBound>79228162514264337593543950335</UpperBound>
 			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
 			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
 		</Rule>
 
-		<Rule>
-			<CaseID>Мультимедиа-центр</CaseID>
-			<LowerBound>0</LowerBound>
-			<UpperBound>10500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
-			<IsSuggestion>true</IsSuggestion>
-		</Rule>
-		<Rule>
-			<CaseID>Мультимедиа-центр</CaseID>
-			<LowerBound>10500</LowerBound>
-			<UpperBound>15000</UpperBound>
-			<OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Мультимедиа-центр</CaseID>
-			<LowerBound>15000</LowerBound>
-			<UpperBound>31500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Мультимедиа-центр</CaseID>
-			<LowerBound>31500</LowerBound>
-			<UpperBound>79228162514264337593543950335</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
-		</Rule>
+    <Rule>
+      <CaseID>Мультимедиа-центр</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>10190</UpperBound>
+      <OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Мультимедиа-центр</CaseID>
+      <LowerBound>10190</LowerBound>
+      <UpperBound>14790</UpperBound>
+      <OutputCPUID>INTEL_CORE_I3_10100</OutputCPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Мультимедиа-центр</CaseID>
+      <LowerBound>14790</LowerBound>
+      <UpperBound>31318</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Мультимедиа-центр</CaseID>
+      <LowerBound>31318</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
+    </Rule>
 
-		<Rule>
+
+    <Rule>
 			<CaseID>Разработка программ</CaseID>
 			<LowerBound>0</LowerBound>
-			<UpperBound>10500</UpperBound>
+			<UpperBound>14790</UpperBound>
 			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
 			<IsSuggestion>true</IsSuggestion>
 		</Rule>
 		<Rule>
 			<CaseID>Разработка программ</CaseID>
-			<LowerBound>10500</LowerBound>
-			<UpperBound>35800</UpperBound>
+			<LowerBound>14790</LowerBound>
+			<UpperBound>35519</UpperBound>
 			<OutputCPUID>INTEL_CORE_I5_10400</OutputCPUID>
 		</Rule>
 		<Rule>
 			<CaseID>Разработка программ</CaseID>
-			<LowerBound>38500</LowerBound>
-			<UpperBound>53000</UpperBound>
+			<LowerBound>35519</LowerBound>
+			<UpperBound>52931</UpperBound>
 			<OutputCPUID>AMD_RYZEN_5_3600</OutputCPUID>
 			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
 		</Rule>
 		<Rule>
 			<CaseID>Разработка программ</CaseID>
-			<LowerBound>53000</LowerBound>
-			<UpperBound>70000</UpperBound>
+			<LowerBound>52931</LowerBound>
+			<UpperBound>68828</UpperBound>
 			<OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
 			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
 		</Rule>
 		<Rule>
 			<CaseID>Разработка программ</CaseID>
-			<LowerBound>70000</LowerBound>
+			<LowerBound>68828</LowerBound>
 			<UpperBound>79228162514264337593543950335</UpperBound>
 			<OutputCPUID>AMD_RYZEN_9_3900X</OutputCPUID>
 			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
 		</Rule>
 
+    
 		<Rule>
 			<CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
 			<LowerBound>0</LowerBound>
-			<UpperBound>46500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10400F</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+			<UpperBound>24761</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100F</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
 			<IsSuggestion>true</IsSuggestion>
 		</Rule>
 		<Rule>
 			<CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
-			<LowerBound>46500</LowerBound>
-			<UpperBound>55000</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10400F</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+			<LowerBound>24761</LowerBound>
+			<UpperBound>46022</UpperBound>
+			<OutputCPUID>INTEL_CORE_I3_10100F</OutputCPUID>
+			<OutputGPUID>NVIDIA_GTX_1650S</OutputGPUID>
 		</Rule>
-		<Rule>
-			<CaseID>Компьютерные игры: низкие настройки графики</CaseID>
-			<LowerBound>55000</LowerBound>
-			<UpperBound>71500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10600KF</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Компьютерные игры: средние настройки графики</CaseID>
-			<LowerBound>71500</LowerBound>
-			<UpperBound>117500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I7_10700KF</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Компьютерные игры: высокие настройки графики</CaseID>
-			<LowerBound>117500</LowerBound>
-			<UpperBound>79228162514264337593543950335</UpperBound>
-			<OutputCPUID>INTEL_CORE_I9_10900K</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
-		</Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: минимальные настройки графики</CaseID>
+      <LowerBound>46022</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10400F</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_1660S</OutputGPUID>
+    </Rule>
 
-		<Rule>
-			<CaseID>Работа с нейросетями: прототипирование, хобби</CaseID>
-			<LowerBound>72000</LowerBound>
-			<UpperBound>95700</UpperBound>
-			<OutputCPUID>AMD_RYZEN_5_3600</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Работа с нейросетями: обучение высокого уровня, рабочие задачи</CaseID>
-			<LowerBound>95700</LowerBound>
-			<UpperBound>79228162514264337593543950335</UpperBound>
-			<OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
-		</Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: низкие настройки графики</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>47636</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10500</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: низкие настройки графики</CaseID>
+      <LowerBound>47636</LowerBound>
+      <UpperBound>54859</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10500F</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: низкие настройки графики</CaseID>
+      <LowerBound>54859</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10600KF</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+    </Rule>
 
-		<Rule>
-			<CaseID>Монтаж видео разрешения до FullHD включительно</CaseID>
-			<LowerBound>56000</LowerBound>
-			<UpperBound>81500</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Монтаж 4k видео</CaseID>
-			<LowerBound>81500</LowerBound>
-			<UpperBound>79228162514264337593543950335</UpperBound>
-			<OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
-		</Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: средние настройки графики</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>55967</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: средние настройки графики</CaseID>
+      <LowerBound>55967</LowerBound>
+      <UpperBound>70776</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: средние настройки графики</CaseID>
+      <LowerBound>70776</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10700K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+    </Rule>
 
-		<Rule>
-			<CaseID>Рендеринг трёхмерной графики с использованием видеокарты</CaseID>
-			<LowerBound>71500</LowerBound>
-			<UpperBound>101000</UpperBound>
-			<OutputCPUID>INTEL_CORE_I5_10700KF</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
-		</Rule>
-		<Rule>
-			<CaseID>Рендеринг трёхмерной графики с использованием видеокарты</CaseID>
-			<LowerBound>101000</LowerBound>
-			<UpperBound>79228162514264337593543950335</UpperBound>
-			<OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
-			<OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
-		</Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: высокие настройки графики</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>81476</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: высокие настройки графики</CaseID>
+      <LowerBound>81476</LowerBound>
+      <UpperBound>100868</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Компьютерные игры: высокие настройки графики</CaseID>
+      <LowerBound>100868</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10850K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+    </Rule>
+
+    
+    <Rule>
+      <CaseID>Работа с нейросетями: прототипирование, хобби</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>48736</UpperBound>
+      <OutputCPUID>AMD_RYZEN_5_3500</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060s</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Работа с нейросетями: прототипирование, хобби</CaseID>
+      <LowerBound>48736</LowerBound>
+      <UpperBound>71991</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060s</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Работа с нейросетями: прототипирование, хобби</CaseID>
+      <LowerBound>71991</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>AMD_RYZEN_5_3600</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070s</OutputGPUID>
+    </Rule>
+
+    <Rule>
+      <CaseID>Работа с нейросетями: обучение высокого уровня, рабочие задачи</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>76968</UpperBound>
+      <OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Работа с нейросетями: обучение высокого уровня, рабочие задачи</CaseID>
+      <LowerBound>76968</LowerBound>
+      <UpperBound>97060</UpperBound>
+      <OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Работа с нейросетями: обучение высокого уровня, рабочие задачи</CaseID>
+      <LowerBound>97060</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>AMD_RYZEN_7_3700X</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+    </Rule>
+
+    
+    <Rule>
+      <CaseID>Монтаж видео разрешения до FullHD включительно</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>55624</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Монтаж видео разрешения до FullHD включительно</CaseID>
+      <LowerBound>55624</LowerBound>
+      <UpperBound>69757</UpperBound>
+      <OutputCPUID>INTEL_CORE_I5_10600K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2060S</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Монтаж видео разрешения до FullHD включительно</CaseID>
+      <LowerBound>69757</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070</OutputGPUID>
+    </Rule>
+
+    <Rule>
+      <CaseID>Монтаж 4k видео</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>81471</UpperBound>
+      <OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Монтаж 4k видео</CaseID>
+      <LowerBound>81471</LowerBound>
+      <UpperBound>100868</UpperBound>
+      <OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Монтаж 4k видео</CaseID>
+      <LowerBound>100868</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I9_10850K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+    </Rule>
+
+    
+    <Rule>
+      <CaseID>Рендеринг трёхмерной графики</CaseID>
+      <LowerBound>0</LowerBound>
+      <UpperBound>71471</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700KF</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+      <IsSuggestion>true</IsSuggestion>
+    </Rule>
+    <Rule>
+      <CaseID>Рендеринг трёхмерной графики</CaseID>
+      <LowerBound>71471</LowerBound>
+      <UpperBound>100868</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10700KF</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2070S</OutputGPUID>
+    </Rule>
+    <Rule>
+      <CaseID>Рендеринг трёхмерной графики</CaseID>
+      <LowerBound>100868</LowerBound>
+      <UpperBound>79228162514264337593543950335</UpperBound>
+      <OutputCPUID>INTEL_CORE_I7_10850K</OutputCPUID>
+      <OutputGPUID>NVIDIA_GTX_2080S</OutputGPUID>
+    </Rule>
 	</Rules>
 	<Variants>
 		<string>Работа с документами</string>
@@ -311,6 +441,6 @@
 		<string>Работа с нейросетями: обучение высокого уровня, рабочие задачи</string>
 		<string>Монтаж видео разрешения до FullHD включительно</string>
 		<string>Монтаж 4k видео</string>
-		<string>Рендеринг трёхмерной графики с использованием видеокарты</string>
+		<string>Рендеринг трёхмерной графики</string>
 	</Variants>
 </Model>
